@@ -4,8 +4,6 @@ set -e
 msg() { echo -e "INF---> $1"; }
 err() { echo -e "ERR---> $1" ; exit 1; }
 
-${AUTH:-user-cardentials}
-
 if [ "$AUTH" = "service-principal" ]
 then
   do az login --service-principal -u $APP_ID -p $PASSWORD --tenant $TENANT >/dev/null
