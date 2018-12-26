@@ -4,7 +4,7 @@ set -e
 msg() { echo -e "INF---> $1"; }
 err() { echo -e "ERR---> $1" ; exit 1; }
 
-${AUTH:-USER}
+${AUTH:-user-cardentials}
 
 if [ "$AUTH" = "service-principal" ]
 then
