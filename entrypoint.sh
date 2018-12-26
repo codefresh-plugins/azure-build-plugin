@@ -9,6 +9,7 @@ then
   do az login --service-principal -u $APP_ID -p $PASSWORD --tenant $TENANT >/dev/null
 else
   do az login -u $USER -p $PASSWORD
+fi
 
 az acr build --registry $ACR_NAME --image $IMAGE:$TAG --file ${DOCKERFILE_PATH:-Dockerfile} $CF_VOLUME_PATH/$CF_REPO_NAME/
 
