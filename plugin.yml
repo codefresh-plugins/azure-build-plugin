@@ -12,7 +12,7 @@ sources:
 maintainers:
   - name: Amir Gabay
     email: amir.gabay@codefresh.io
-icon: https://raw.githubusercontent.com/codefresh-plugins/azure-build-plugin/blob/master/icon.jpg
+icon: https://raw.githubusercontent.com/codefresh-plugins/azure-build-plugin/master/icon.jpg
 envs:
   - name: AUTH
     type: optional
