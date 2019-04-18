@@ -1,7 +1,7 @@
 title: azure-builder
 image: codefreshplugins/cf-azure-builder
 categories:
-  - Build
+  - build
 version: 0.1.0
 description: Docker build in Azure ACR
 keywords:
