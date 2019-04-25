@@ -34,7 +34,7 @@ DESCRIPTION:
 version: '1.0'
 steps:
   cf-az-build:
-    image: codefresh/cf-azure-builder
+    image: codefreshplugins/cf-azure-builder
     environment:
       - AUTH=service-principal
       - IMAGE=<image name>
